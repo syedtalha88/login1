@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'montserrat', sans-serif;
+    list-style: none;
+    text-decoration: none;
+
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(backgound.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    border: 1px solid white;
+    backdrop-filter: blur(5px);
+    padding: 20px 40px;
+    padding-bottom: 60px;
+    border-radius: 14px;
+}
+.login{
+    text-align: center;
+    color: white;
+    padding: 20px 0; 
+    font-size: 25px;
+
+}
+.email-pass{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.email{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    border: 1px solid white;
+    margin: 8px 0;
+    width: 280px;
+    height: 45px;
+    border-radius: 25px;
+}
+.password{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    border: 1px solid white;
+    margin: 8px 0;
+    width: 280px;
+    height: 45px;
+    border-radius: 25px;
+}
+#e-mail{
+    background: transparent;
+    border: none;
+    color: white;
+    width: 100%;
+    /* font-weight: bold; */
+}
+#e-mail:focus{
+    outline: none;
+}
+#e-mail::placeholder{
+    color: white;
+    font-family: 'poppins';
+    font-size: 13px;
+}
+
+i{
+    color: white;
+}
+#pass-word{
+    background: transparent;
+    border: none;
+    color: white;
+    width: 100%;
+    -webkit-text-security: disc;
+    font-size: 20px;
+}
+#pass-word:focus{
+    outline: none;
+}
+#pass-word::placeholder{
+    color: white;
+    font-family: 'poppins';
+    font-size: 13px;
+}
+.remember-forget{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    font-size: 12px;
+    
+}
+
+.remember a{
+    font-family: 'poppins';
+    color: white;
+}
+
+.forget a{
+
+    font-family: 'poppins';
+    color: white;
+}
+.forget:hover{
+    color: white;
+    text-decoration: underline;
+}
+.loginbtn{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+#login-button{
+    margin-top: 8px;
+    width: 280px;
+    height: 45px;
+    border-radius: 25px;
+    background-color: white;
+    border: 2px solid whitesmoke;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'poppins';
+    transition: 0.2s ease-in;
+}
+#login-button:hover{
+    background-color: transparent;
+    color: white;
+}
+.register{
+    text-align: center;
+}
+.register p{
+    font-size: 14px;
+    color: white;
+    margin: 0;
+    /* font-weight: bold; */
+}
+.register a{
+    font-weight: bold;
+    color: white;
+    
+}
+.register a:hover{
+    text-decoration: underline;
+}
